@@ -10,9 +10,9 @@ Create Read Update Delete using localStorage with JS, HTML and CSS
 - [x] Write to local storage
 - [x] Read from local storage
 - [x] Edit local storage
-    - [ ] What about if we have more than one value?
-    - [ ] how do we add multiple values?
-        - [ ] maybe use an array?
+    - [x] What about if we have more than one value?
+    - [x] how do we add multiple values?
+        - [x] maybe use an array?
         - [ ] maybe use multiple keys? create new keyname each time
 
 - [x] Delete local storage
@@ -22,9 +22,9 @@ Create Read Update Delete using localStorage with JS, HTML and CSS
 
 ### Next Sprint (what are we trying to code)
 Examples: Replace with your own.
-- [ ] animate when new data is added
-- [ ] color code the data by timestape (older more greyed out)
-- [ ] Read from yelp api to get good bagel advice in a city
-- [ ] save my local storage to a remote storage for back up
+- [ ] list 1
+- [ ] list 2
+- [ ] list 3
+- [ ] 
 
 - [ ] Optional: Host on repl.it (html,css, js)
