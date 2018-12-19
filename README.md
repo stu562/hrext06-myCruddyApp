@@ -13,18 +13,24 @@ Create Read Update Delete using localStorage with JS, HTML and CSS
     - [x] What about if we have more than one value?
     - [x] how do we add multiple values?
         - [x] maybe use an array?
-        - [ ] maybe use multiple keys? create new keyname each time
+        - [n/a] maybe use multiple keys? create new keyname each time
 
 - [x] Delete local storage
     - [x] delete button storage.removeItem()
-    - [ ] delete all storage.clear()
+    - [x] delete all storage.clear()
 - [x] Display stored value in proper div
 
 ### Next Sprint (what are we trying to code)
-Examples: Replace with your own.
-- [ ] list 1
-- [ ] list 2
-- [ ] list 3
-- [ ] 
 
-- [ ] Optional: Host on repl.it (html,css, js)
+- [x] explore AR.js using marker base A-frame 
+	[ ] three.js /threeAr.js
+	[ ] artoolkit
+- [x] get the simple box object to work 
+- [ ] change the object 
+	[ ] add buttons so the user can change the object on selection 
+- [ ] populate object in AR space 
+- [ ] learn to add different objects 
+- [ ] add a button for the main page to load the app 
+
+- [ ] Optional: change to different marker than the Hiro marker
+- [ ] add in FPS reader 
