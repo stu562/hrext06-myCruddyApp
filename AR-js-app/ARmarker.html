@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!doctype HTML>
 <html>
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -12,25 +12,22 @@
 </head>
 <body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
   <div style='position: fixed; top: 10px; width:100%; text-align: center; z-index: 1;'>
-  <h1 class='apptitle' style='color:black'>Anything Augmented</h1>
-  <!-- <a href="https://github.com/jeromeetienne/AR.js/" target="_blank">AR.js</a> - example for a-frame
-  <br/> -->
-  <p style='color:white; font-size:20px'>Hello AR World!</p>
-  <div class="navigation-bar" style='position: fixed; bottom: 10px; width:100%; text-align: center; z-index: 1;'>
-    <button class="btn-obj1" type="button">Box</button>
+    <h1 class='apptitle' style='color:black'>Anything Augmented</h1>
+    <p style='color:white; font-size:20px'>Hello AR World!</p>
+    <div class="navigation-bar" style='position: fixed; bottom: 10px; width:100%; text-align: center; z-index: 1;'>
+      <button class="btn-obj1" type="button">Box</button>
       <button class="btn-obj2" type="button">Sphere</button>
       <button class="btn-obj3" type="button">object</button>
     </div>
   </div>
-  <!-- <a-scene embedded arjs='sourceType: image; sourceUrl:../../data/images/armchair.jpg;'> -->
-  <div class="objects">
-  <a-scene embedded arjs='sourceType: webcam;'>
-    <a-marker-camera preset='hiro'>
-    <a-sphere position="0 0.5 0" radius="0.5" color="#EF2D5E"></a-sphere>
-    <a-plane position="0 0 0" rotation="-90 0 0" width="1" height="1" color="#7BC8A4"></a-plane>
-    <a-sky color="#ECECEC"></a-sky>
-    </a-marker-camera>
-  </a-scene>
-  </div>
+
+    <a-scene embedded arjs>
+    <a-marker preset="hiro" class="objselector">
+            <a-box position='0 0.5 0' material='color: orange;'></a-box>
+    </a-marker>
+    <a-entity camera></a-entity>
+    </a-scene>
+
+
 </body>
 </html>

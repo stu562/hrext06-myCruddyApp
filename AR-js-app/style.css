@@ -9,7 +9,7 @@
 	border-style: solid;
 	font-size: 40px;
 	font-family: serif;
-	margin: 50px;
+	margin: 25px;
 	margin-bottom: 20px;
 	padding: 20px;
 }
@@ -26,6 +26,7 @@
 }
 .navigation-bar{
 	background-color: black;
+	opacity: 0.75;
 	justify-content: center;
 	border-style: solid;
 	/*font-size: 40px;*/
