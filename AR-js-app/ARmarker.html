@@ -2,7 +2,8 @@
 <html>
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+<script src="AR-app.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@7767ba1b2f10b2129acbfdad1c25666b99db4966/dist/aframe-master.min.js"></script>
 <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"> </script>
 <script> THREEx.ArToolkitContext.baseURL = 
   'https://rawgit.com/jeromeetienne/ar.js/master/three.js/'</script>
@@ -13,19 +14,19 @@
 <body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
   <div style='position: fixed; top: 10px; width:100%; text-align: center; z-index: 1;'>
     <h1 class='apptitle' style='color:black'>Anything Augmented</h1>
-    <p style='color:white; font-size:20px'>Hello AR World!</p>
+    <p style='color:white; font-size:20px'>Hello AR World! </p>
     <div class="navigation-bar" style='position: fixed; bottom: 10px; width:100%; text-align: center; z-index: 1;'>
       <button class="btn-obj1" type="button">Box</button>
       <button class="btn-obj2" type="button">Sphere</button>
-      <button class="btn-obj3" type="button">object</button>
+      <button class="btn-obj3" type="button">Plane</button>
     </div>
   </div>
 
     <a-scene embedded arjs>
-    <a-marker preset="hiro" class="objselector">
-            <a-box position='0 0.5 0' material='color: orange;'></a-box>
-    </a-marker>
-    <a-entity camera></a-entity>
+      <a-marker preset="hiro" class="marker">
+            <a-sphere class='currentObj'></a-box>
+      </a-marker>
+      <a-entity camera></a-entity>
     </a-scene>
 
 

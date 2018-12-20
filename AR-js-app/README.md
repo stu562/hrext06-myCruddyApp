@@ -7,9 +7,9 @@
 - [x] change the object to box 
 	 
 - [x] obtain object 3D models 
-- [ ] populate object on click in AR space 
+- [x] populate object on click in AR space 
 - [x] add different objects button
-- [ ] button should change object
+- [x] button should change object color
 - [ ] objects should move 
 - [ ] objects should be able to interacted with 
 
