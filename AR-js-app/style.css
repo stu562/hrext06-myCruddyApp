@@ -28,11 +28,11 @@
 	background-color: black;
 	justify-content: center;
 	border-style: solid;
-	font-size: 40px;
+	/*font-size: 40px;*/
 	font-family: serif;
-	padding:5px;
+	/*padding:5px;*/
 }
-.btn-enter{
+.btn-obj1{
 	background-color: white;
 	opacity: 0.75;
 	justify-content: center;
@@ -41,14 +41,14 @@
 	font-size: 40px;
 	font-family: serif;
 	margin: 20px;
-	margin-left: 500px;
+	/*margin-left: 500px;*/
 	padding: 20px;
 }
-.btn-enter:hover{
+.btn-obj1:hover{
 	background-color: white;
 	opacity: 1;
 }
-.btn-settings{
+.btn-obj2{
 	background-color: white;
 	opacity: 0.75;
 	justify-content: center;
@@ -59,7 +59,22 @@
 	margin: 20px ;
 	padding: 20px;
 }
-.btn-settings:hover{
+.btn-obj2:hover{
+	background-color: white;
+	opacity: 1;
+}
+.btn-obj3{
+	background-color: white;
+	opacity: 0.75;
+	justify-content: center;
+	margin-bottom: auto;
+	border-style: solid;
+	font-size: 40px;
+	font-family: serif;
+	margin: 20px ;
+	padding: 20px;
+}
+.btn-obj3:hover{
 	background-color: white;
 	opacity: 1;
 }
