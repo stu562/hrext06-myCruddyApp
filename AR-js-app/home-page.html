@@ -1,15 +1,40 @@
 <!doctype HTML>
 <html>
 <head>
+  <!-- jquery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-  <body>
+<!-- add aframe -->
+<script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+<!-- adds ar.js includes three.js-->
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"> </script>
+<script> THREEx.ArToolkitContext.baseURL = 
+  'https://rawgit.com/jeromeetienne/ar.js/master/three.js/'</script>
 
-<div>
-	<button class="box" type="button"></button>
-	<button class="teeth" type="button"></button>
-	<button class="corgi" type="button"></button>
+
+<link rel="stylesheet" type="text/css" href="home-page-style.css">
+</head>
+  <body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
+
+
+  <div style='position: fixed; top: 10px; width:100%; text-align: center; z-index: 1;'>
+    <h1 class="apptitle">Anything Augmented</h1>
+    <p class="catchphrase">Awesome Catchphrase!</p>
+
+    <a href="https://github.com/jeromeetienne/AR.js/" target="_blank">AR.js</a> - Built using AR.js
+    <br/> Hello AR world ! <a href='https://twitter.com/jerome_etienne' target='_blank'>@jerome_etienne</a>
+  </div>
+
+
+  <div class="navigation-bar">
+	<button class="btn-enter" type="button">Enter</button>
+  <button class="btn-settings" type="button">Settings</button>
+  </div>
 </div>
+
+	<a-scene>
+      <a-box color="#6173F4" opacity="0.8" depth="2"></a-box>
+      <a-sphere radius="2" src="texture.png" position="1 1 0"></a-sphere>
+      <a-sky color="#ECECEC"></a-sky>
+   </a-scene>
   </body>
 </html>

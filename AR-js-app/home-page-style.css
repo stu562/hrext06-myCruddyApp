@@ -1,0 +1,65 @@
+.background{
+	background-color: skyblue;
+}
+.apptitle{
+	background-color: white;
+	opacity: 0.75;
+	justify-content: center;
+	text-align: center;
+	border-style: solid;
+	font-size: 40px;
+	font-family: serif;
+	margin: 50px;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+.catchphrase{
+	opacity: 0.75;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+	margin-bottom: 400px;
+	font-style:italic;
+	font-size: 40px;
+	font-family: serif;
+	padding: 10px;
+}
+.navigation-bar{
+	background-color: black;
+	justify-content: center;
+	border-style: solid;
+	font-size: 40px;
+	font-family: serif;
+	padding:5px;
+}
+.btn-enter{
+	background-color: white;
+	opacity: 0.75;
+	justify-content: center;
+	margin-bottom: auto;
+	border-style: solid;
+	font-size: 40px;
+	font-family: serif;
+	margin: 20px;
+	margin-left: 500px;
+	padding: 20px;
+}
+.btn-enter:hover{
+	background-color: white;
+	opacity: 1;
+}
+.btn-settings{
+	background-color: white;
+	opacity: 0.75;
+	justify-content: center;
+	margin-bottom: auto;
+	border-style: solid;
+	font-size: 40px;
+	font-family: serif;
+	margin: 20px ;
+	padding: 20px;
+}
+.btn-settings:hover{
+	background-color: white;
+	opacity: 1;
+}

@@ -20,17 +20,24 @@ Create Read Update Delete using localStorage with JS, HTML and CSS
     - [x] delete all storage.clear()
 - [x] Display stored value in proper div
 
-### Next Sprint (what are we trying to code)
+### Next Sprint: AR-js-app
 
 - [x] explore AR.js using marker base A-frame 
 	[ ] three.js /threeAr.js
 	[ ] artoolkit
 - [x] get the simple box object to work 
-- [ ] change the object 
-	[ ] add buttons so the user can change the object on selection 
-- [ ] populate object in AR space 
-- [ ] learn to add different objects 
-- [ ] add a button for the main page to load the app 
+- [x] change the object to box 
+	 
+- [ ] obtain object 3D models 
+- [ ] populate object on click in AR space 
+- [ ] add different objects
+- [ ] add buttons so the user can change the object on selection 
+- [ ] objects should move 
+- [ ] objects should be able to interacted with 
+
 
 - [ ] Optional: change to different marker than the Hiro marker
 - [ ] add in FPS reader 
+- [ ] change the marker to follow the users face instead 
+- [ ] improve UI
+	- [ ] add a button for the main page to load the app  

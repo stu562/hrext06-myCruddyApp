@@ -1,5 +1,11 @@
 $(document).ready(function(){
+
+	//https://raw.githubusercontent.com/akashkuttappa/armodels/master/markers/hiro.jpg
+	//access the marker either on computer or mobilephone and place infront of webcam or frontfacing camera
 	//creates the button for main screen to enter the AR App 
+
+
+
 	//creates users defined object on click - a square , teeth model, corgi
 
 
