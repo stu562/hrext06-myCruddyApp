@@ -9,26 +9,22 @@
   'https://rawgit.com/jeromeetienne/ar.js/master/three.js/'</script>
 <link rel="stylesheet" type="text/css" href="style.css">
 
-
 </head>
 <body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
   <div style='position: fixed; top: 10px; width:100%; text-align: center; z-index: 1;'>
     <h1 class='apptitle' style='color:black'>Anything Augmented</h1>
     <p style='color:white; font-size:20px'>Hello AR World! </p>
     <div class="navigation-bar" style='position: fixed; bottom: 10px; width:100%; text-align: center; z-index: 1;'>
-      <button class="btn-obj1" type="button">Box</button>
+      <button class="btn-obj1" type="button">Cube</button>
       <button class="btn-obj2" type="button">Sphere</button>
-      <button class="btn-obj3" type="button">Plane</button>
+      <button class="btn-obj3" type="button">Square</button>
     </div>
   </div>
-
     <a-scene embedded arjs>
       <a-marker preset="hiro" class="marker">
-            <a-sphere class='currentObj'></a-box>
+            <a class='currentObj'></a>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
-
-
 </body>
 </html>

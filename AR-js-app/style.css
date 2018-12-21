@@ -13,25 +13,13 @@
 	margin-bottom: 20px;
 	padding: 20px;
 }
-.catchphrase{
-	opacity: 0.75;
-	justify-content: center;
-	flex-wrap: wrap;
-	text-align: center;
-	margin-bottom: 400px;
-	font-style:italic;
-	font-size: 40px;
-	font-family: serif;
-	padding: 10px;
-}
+
 .navigation-bar{
 	background-color: black;
 	opacity: 0.75;
 	justify-content: center;
 	border-style: solid;
-	/*font-size: 40px;*/
 	font-family: serif;
-	/*padding:5px;*/
 }
 .btn-obj1{
 	background-color: white;
@@ -42,7 +30,6 @@
 	font-size: 40px;
 	font-family: serif;
 	margin: 20px;
-	/*margin-left: 500px;*/
 	padding: 20px;
 }
 .btn-obj1:hover{
