@@ -5,6 +5,7 @@
 - get a hiro marker on phone or computer 
 AR libraries are the work of Jeromeetienne
 - https://github.com/jeromeetienne/AR.js
+
 ******** how to run *********************
 - get mobile hiro marker and save to mobile device
 - run ARmarker.html in browser of desktop
